@@ -12,8 +12,8 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
-def speak_to_grandma(argument= "Hi Grandma.")
-  if argument.downcase
+def speak_to_grandma(x)
+  if x.downcase
     then return "HUH?! SPEAK UP, SONNY!"
   elsif argument.upcase
     then return "NO, NOT SINCE 1938!"
