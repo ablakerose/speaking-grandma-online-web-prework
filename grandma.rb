@@ -15,5 +15,5 @@
 def speak_to_grandma("x")
   if "x".downcase
     then return "HUH?! SPEAK UP, SONNY!"
-  
+
 end
